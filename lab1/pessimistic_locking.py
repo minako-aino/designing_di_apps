@@ -19,11 +19,11 @@ my_map.put("counter", 0)
 
 # pessimistic locking - https://docs.hazelcast.com/hazelcast/5.3/data-structures/locking-maps
 def increment_counter():
-    my_map.lock("counter")
     for t in range(0, 10000):
+        my_map.lock("counter")
         my_map.replace("counter", my_map.get("counter")+1)
         # print("New current: ", my_map.get("counter"))
-    my_map.unlock("counter")
+        my_map.unlock("counter")
 
 
 # configure 10 threads
