@@ -1,0 +1,549 @@
+[{
+  "_id": {
+    "$oid": "65393c18f37303d61d6c5a30"
+  },
+  "category": "cat food",
+  "type": "dry",
+  "brand": "Savory",
+  "flavour": "turkey",
+  "weight": 2,
+  "price": 700,
+  "amount": 61
+},
+{
+  "_id": {
+    "$oid": "65393c18f37303d61d6c5a31"
+  },
+  "category": "cat food",
+  "type": "dry",
+  "brand": "Royal canin",
+  "flavour": "chicken",
+  "weight": 2,
+  "price": 1000,
+  "amount": 37
+},
+{
+  "_id": {
+    "$oid": "65393c18f37303d61d6c5a32"
+  },
+  "category": "cat food",
+  "type": "wet",
+  "brand": "Savory",
+  "flavour": "turkey and pumkin",
+  "weight": 0.2,
+  "price": 80,
+  "amount": 4
+},
+{
+  "_id": {
+    "$oid": "65393c18f37303d61d6c5a33"
+  },
+  "category": "cat food",
+  "type": "wet",
+  "brand": "Whiskers",
+  "flavour": "chicken",
+  "weight": 1,
+  "price": 150,
+  "amount": 67
+},
+{
+  "_id": {
+    "$oid": "65393c18f37303d61d6c5a34"
+  },
+  "category": "dog food",
+  "type": "dry",
+  "brand": "Pawsome",
+  "flavour": "beef",
+  "weight": 5,
+  "price": 1200,
+  "amount": 80
+},
+{
+  "_id": {
+    "$oid": "65393c18f37303d61d6c5a35"
+  },
+  "category": "cat food",
+  "type": "dry",
+  "brand": "Whiskas",
+  "flavour": "chicken",
+  "weight": 1.5,
+  "price": 200,
+  "amount": 87
+},
+{
+  "_id": {
+    "$oid": "65393c18f37303d61d6c5a36"
+  },
+  "category": "cat food",
+  "type": "wet",
+  "brand": "Felix",
+  "flavour": "salmon",
+  "weight": 0.1,
+  "price": 27,
+  "amount": 49
+},
+{
+  "_id": {
+    "$oid": "65393c18f37303d61d6c5a37"
+  },
+  "category": "dog food",
+  "type": "wet",
+  "brand": "Purina",
+  "flavour": "beef",
+  "weight": 0.5,
+  "price": 100,
+  "amount": 59
+},
+{
+  "_id": {
+    "$oid": "65393c18f37303d61d6c5a38"
+  },
+  "category": "fish food",
+  "type": "flakes",
+  "brand": "TetraMin",
+  "size": 0.1,
+  "price": 300,
+  "amount": 10
+},
+{
+  "_id": {
+    "$oid": "65393c18f37303d61d6c5a39"
+  },
+  "category": "fish food",
+  "type": "pellets",
+  "brand": "Hikari",
+  "size": 0.25,
+  "price": 500,
+  "amount": 72
+},
+{
+  "_id": {
+    "$oid": "65393c18f37303d61d6c5a3a"
+  },
+  "category": "bird food",
+  "type": "seeds",
+  "brand": "Vitakraft",
+  "mix": "parrots",
+  "weight": 1,
+  "price": 700,
+  "amount": 32
+},
+{
+  "_id": {
+    "$oid": "65393c18f37303d61d6c5a3b"
+  },
+  "category": "bird food",
+  "type": "pellets",
+  "brand": "Versele-Laga",
+  "mix": "canaries",
+  "weight": 0.5,
+  "price": 300,
+  "amount": 90
+},
+{
+  "_id": {
+    "$oid": "65393c18f37303d61d6c5a3c"
+  },
+  "category": "cat toys",
+  "type": "scratching post",
+  "brand": "Kitty City",
+  "height": 100,
+  "price": 500,
+  "amount": 12
+},
+{
+  "_id": {
+    "$oid": "65393c18f37303d61d6c5a3d"
+  },
+  "category": "cat toys",
+  "type": "laser pointer",
+  "brand": "PetSafe",
+  "price": 100,
+  "amount": 12
+},
+{
+  "_id": {
+    "$oid": "65393c18f37303d61d6c5a3e"
+  },
+  "category": "dog toys",
+  "type": "chew toy",
+  "brand": "Kong",
+  "size": "medium",
+  "price": 200,
+  "amount": 82
+},
+{
+  "_id": {
+    "$oid": "65393c18f37303d61d6c5a3f"
+  },
+  "category": "dog toys",
+  "type": "fetch ball",
+  "brand": "Chuckit!",
+  "size": "large",
+  "price": 150,
+  "amount": 62
+},
+{
+  "_id": {
+    "$oid": "65393c18f37303d61d6c5a40"
+  },
+  "category": "fish tanks",
+  "type": "aquarium",
+  "brand": "Tetra",
+  "size": 50,
+  "price": 2000,
+  "amount": 72
+},
+{
+  "_id": {
+    "$oid": "65393c18f37303d61d6c5a41"
+  },
+  "category": "fish tanks",
+  "type": "filter",
+  "brand": "Fluval",
+  "capacity": 100,
+  "price": 500,
+  "amount": 53
+},
+{
+  "_id": {
+    "$oid": "65393c18f37303d61d6c5a42"
+  },
+  "category": "bird cages",
+  "type": "flight cage",
+  "brand": "Prevue Hendryx",
+  "size": "medium",
+  "price": 1000,
+  "amount": 97
+},
+{
+  "_id": {
+    "$oid": "65393c18f37303d61d6c5a43"
+  },
+  "category": "bird cages",
+  "type": "playstand",
+  "brand": "K&H Pet Products",
+  "height": "72",
+  "price": 200,
+  "amount": 79
+},
+{
+  "_id": {
+    "$oid": "65393c18f37303d61d6c5a44"
+  },
+  "category": "cat food",
+  "type": "dry",
+  "brand": "Meow Mix",
+  "flavour": "salmon",
+  "weight": 3,
+  "price": 850,
+  "amount": 4
+},
+{
+  "_id": {
+    "$oid": "65393c18f37303d61d6c5a45"
+  },
+  "category": "cat food",
+  "type": "dry",
+  "brand": "Purrfection",
+  "flavour": "chicken",
+  "weight": 2.5,
+  "price": 750,
+  "amount": 76
+},
+{
+  "_id": {
+    "$oid": "65393c18f37303d61d6c5a46"
+  },
+  "category": "cat food",
+  "type": "dry",
+  "brand": "Hill's",
+  "flavour": "salmon",
+  "weight": 3,
+  "price": 850,
+  "amount": 74
+},
+{
+  "_id": {
+    "$oid": "65393c18f37303d61d6c5a47"
+  },
+  "category": "cat food",
+  "type": "wet",
+  "brand": "Purina",
+  "flavour": "tuna",
+  "weight": 1,
+  "price": 48,
+  "amount": 37
+},
+{
+  "_id": {
+    "$oid": "65393c18f37303d61d6c5a48"
+  },
+  "category": "cat food",
+  "type": "wet",
+  "brand": "Friskies",
+  "flavour": "salmon",
+  "weight": 0.75,
+  "price": 50,
+  "amount": 35
+},
+{
+  "_id": {
+    "$oid": "65393c18f37303d61d6c5a49"
+  },
+  "category": "dog food",
+  "type": "dry",
+  "brand": "Blue Buffalo",
+  "flavour": "beef",
+  "weight": 5,
+  "price": 1200,
+  "amount": 29
+},
+{
+  "_id": {
+    "$oid": "65393c18f37303d61d6c5a4a"
+  },
+  "category": "dog food",
+  "type": "dry",
+  "brand": "Merrick",
+  "flavour": "lamb",
+  "weight": 4.5,
+  "price": 1100,
+  "amount": 56
+},
+{
+  "_id": {
+    "$oid": "65393c18f37303d61d6c5a4b"
+  },
+  "category": "dog food",
+  "type": "wet",
+  "brand": "Hill's",
+  "flavour": "chicken",
+  "weight": 0.75,
+  "price": 600,
+  "amount": 41
+},
+{
+  "_id": {
+    "$oid": "65393c18f37303d61d6c5a4c"
+  },
+  "category": "dog food",
+  "type": "wet",
+  "brand": "Iams",
+  "flavour": "turkey",
+  "weight": 1,
+  "price": 650,
+  "amount": 53
+},
+{
+  "_id": {
+    "$oid": "65393c18f37303d61d6c5a4d"
+  },
+  "category": "cat toy",
+  "type": "interactive",
+  "brand": "Petlinks",
+  "color": "blue",
+  "price": 40,
+  "amount": 62
+},
+{
+  "_id": {
+    "$oid": "65393c18f37303d61d6c5a4e"
+  },
+  "category": "cat toy",
+  "type": "plush",
+  "brand": "SmartyKat",
+  "color": "pink",
+  "price": 35,
+  "amount": 12
+},
+{
+  "_id": {
+    "$oid": "65393c18f37303d61d6c5a4f"
+  },
+  "category": "dog accessory",
+  "type": "collar",
+  "brand": "Mighty Paw",
+  "size": "medium",
+  "color": "red",
+  "price": 45,
+  "amount": 2
+},
+{
+  "_id": {
+    "$oid": "65393c18f37303d61d6c5a50"
+  },
+  "category": "dog accessory",
+  "type": "collar",
+  "brand": "Blueberry Pet",
+  "size": "small",
+  "color": "green",
+  "price": 40,
+  "amount": 25
+},
+{
+  "_id": {
+    "$oid": "65393c18f37303d61d6c5a51"
+  },
+  "category": "cat food",
+  "type": "dry",
+  "brand": "Purina",
+  "flavour": "chicken and rice",
+  "weight": 4,
+  "price": 700,
+  "amount": 93
+},
+{
+  "_id": {
+    "$oid": "65393c18f37303d61d6c5a52"
+  },
+  "category": "cat food",
+  "type": "dry",
+  "brand": "Nutro",
+  "flavour": "duck",
+  "weight": 3.5,
+  "price": 820,
+  "amount": 5
+},
+{
+  "_id": {
+    "$oid": "65393c18f37303d61d6c5a53"
+  },
+  "category": "cat food",
+  "type": "wet",
+  "brand": "Sheba",
+  "flavour": "salmon",
+  "weight": 0.85,
+  "price": 27,
+  "amount": 7
+},
+{
+  "_id": {
+    "$oid": "65393c18f37303d61d6c5a54"
+  },
+  "category": "cat food",
+  "type": "wet",
+  "brand": "Wellness",
+  "flavour": "chicken and turkey",
+  "weight": 1.25,
+  "price": 200,
+  "amount": 94
+},
+{
+  "_id": {
+    "$oid": "65393c18f37303d61d6c5a55"
+  },
+  "category": "cat food",
+  "type": "wet",
+  "brand": "Sheba",
+  "flavour": "turkey",
+  "weight": 0.85,
+  "price": 30,
+  "amount": 70
+},
+{
+  "_id": {
+    "$oid": "65393c18f37303d61d6c5a56"
+  },
+  "category": "cat food",
+  "type": "wet",
+  "brand": "Wellness",
+  "flavour": "tuna",
+  "weight": 1.25,
+  "price": 200,
+  "amount": 81
+},
+{
+  "_id": {
+    "$oid": "65393c18f37303d61d6c5a57"
+  },
+  "category": "dog food",
+  "type": "dry",
+  "brand": "Pedigree",
+  "flavour": "chicken and rice",
+  "weight": 8,
+  "price": 1350,
+  "amount": 64
+},
+{
+  "_id": {
+    "$oid": "65393c18f37303d61d6c5a58"
+  },
+  "category": "dog food",
+  "type": "dry",
+  "brand": "Hill's",
+  "flavour": "lamb and rice",
+  "weight": 6.5,
+  "price": 1200,
+  "amount": 74
+},
+{
+  "_id": {
+    "$oid": "65393c18f37303d61d6c5a59"
+  },
+  "category": "dog food",
+  "type": "wet",
+  "brand": "Cesar",
+  "flavour": "filet mignon",
+  "weight": 0.5,
+  "price": 580,
+  "amount": 33
+},
+{
+  "_id": {
+    "$oid": "65393c18f37303d61d6c5a5a"
+  },
+  "category": "dog food",
+  "type": "wet",
+  "brand": "Nature's Recipe",
+  "flavour": "chicken",
+  "weight": 1.2,
+  "price": 650,
+  "amount": 96
+},
+{
+  "_id": {
+    "$oid": "65393c18f37303d61d6c5a5b"
+  },
+  "category": "cat toy",
+  "type": "interactive",
+  "brand": "Cat Dancer",
+  "color": "rainbow",
+  "price": 120,
+  "amount": 89
+},
+{
+  "_id": {
+    "$oid": "65393c18f37303d61d6c5a5c"
+  },
+  "category": "cat toy",
+  "type": "plush",
+  "brand": "KONG",
+  "color": "purple",
+  "price": 170,
+  "amount": 17
+},
+{
+  "_id": {
+    "$oid": "65393c18f37303d61d6c5a5d"
+  },
+  "category": "dog accessory",
+  "type": "collar",
+  "brand": "Rogz",
+  "size": "large",
+  "color": "blue",
+  "price": 48,
+  "amount": 70
+},
+{
+  "_id": {
+    "$oid": "65393c18f37303d61d6c5a5e"
+  },
+  "category": "dog accessory",
+  "type": "collar",
+  "brand": "Hamilton",
+  "size": "medium",
+  "color": "black",
+  "price": 42,
+  "amount": 45
+}]

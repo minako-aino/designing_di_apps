@@ -27,7 +27,7 @@ def increment_counter():
 
 
 # configure 10 threads
-threads = [Thread(target=increment_counter)
+threads = [Thread(target=increment_counter)  
            for t in range(0, 10)]
 
 # start performance check
