@@ -1,0 +1,42 @@
+version: '3'
+
+services:
+  cassandra1:
+    image: cassandra:latest
+    container_name: cassandra1
+    ports:
+      - "9042:9042"
+    environment:
+      - "CASSANDRA_SEEDS=cassandra1"
+      - "CASSANDRA_CLUSTER_NAME=lab7-cluster"
+      - "CASSANDRA_DC=lab7"
+    networks:
+      - labs
+
+  cassandra2:
+    image: cassandra:latest
+    container_name: cassandra2
+    environment:
+      - "CASSANDRA_SEEDS=cassandra2"
+      - "CASSANDRA_CLUSTER_NAME=lab7-cluster"
+      - "CASSANDRA_DC=lab7"
+    networks:
+      - labs
+
+  cassandra3:
+    image: cassandra:latest
+    container_name: cassandra3
+    environment:
+      - "CASSANDRA_SEEDS=cassandra3"
+      - "CASSANDRA_CLUSTER_NAME=lab7-cluster"
+      - "CASSANDRA_DC=lab7"
+    networks:
+      - labs
+
+networks:
+  labs:
+
+volumes:
+  cassandra1:
+  cassandra2:
+  cassandra3:
