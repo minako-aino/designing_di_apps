@@ -1,0 +1,35 @@
+# reference: https://github.com/UpSync-Dev/docker-compose-mongo-replica-set/tree/main
+
+version: "3.8"
+
+services:
+  mongo-primary:
+    image: mongo:5
+    container_name: mongo-primary
+    command: ["--replSet", "my-replica-set", "--bind_ip_all", "--port", "30001"]
+    volumes:
+      - ./data/mongo-1:/data/db
+    ports:
+      - 30001:30001
+    healthcheck:
+      test: test $$(echo "rs.initiate({_id:'my-replica-set',members:[{_id:0,host:\"mongo-primary:30001\"},{_id:1,host:\"mongo-sec1:30002\"},{_id:2,host:\"mongo-sec2:30003\"}]}).ok || rs.status().ok" | mongo --port 30001 --quiet) -eq 1
+      interval: 10s
+      start_period: 30s
+
+  mongo-sec1:
+    image: mongo:5
+    container_name: mongo-sec1
+    command: ["--replSet", "my-replica-set", "--bind_ip_all", "--port", "30002"]
+    volumes:
+      - ./data/mongo-sec1:/data/db
+    ports:
+      - 30002:30002
+
+  mongo-sec2:
+    image: mongo:5
+    container_name: mongo-sec2
+    command: ["--replSet", "my-replica-set", "--bind_ip_all", "--port", "30003"]
+    volumes:
+      - ./data/mongo-sec2:/data/db
+    ports:
+      - 30003:30003
